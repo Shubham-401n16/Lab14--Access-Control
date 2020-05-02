@@ -1,0 +1,39 @@
+{
+  "name": "Lab14--Access-Control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint **/.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham-401n16/Lab14--Access-Control.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubham-401n16/Lab14--Access-Control/issues"
+  },
+  "homepage": "https://github.com/Shubham-401n16/Lab14--Access-Control#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "base-64": "^0.1.0",
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "jest": "^25.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.11",
+    "morgan": "^1.10.0"
+  }
+}
